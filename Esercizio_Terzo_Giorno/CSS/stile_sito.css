@@ -1,0 +1,61 @@
+body {font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; margin: 0;}
+
+#logo {width: 150px;}
+
+header p {margin: 20px auto;
+        font-size: 0.8rem;
+        border-top: 2px solid rgb(247, 205, 90);
+        padding: 1rem;
+        background-color: rgb(255, 249, 131, 0.3);
+        margin-bottom: 5rem;
+        color: rgb(24, 84, 24);}
+
+h1 {margin-bottom: 3rem;}
+
+#first_line {margin-left: 26.5%;
+            margin-right: 26.5%;
+            text-align: justify;}
+
+figcaption {color: rgb(147, 142, 142);
+            margin-top: 20px;
+            margin-bottom: 30px;}
+
+#correlato {text-align: left;
+            margin-left: 1.5%;
+            color: rgb(212, 122, 48);
+            font-weight: 540;
+            margin-bottom: 0.1rem;}
+
+#correlato_link {text-align: left;
+                margin-left: 1.5%;
+                margin-top: 0%;}
+
+aside {border-left: 3px solid rgb(247, 205, 90);
+       margin-left: 26.5%;}
+
+h2 {text-align: left;
+    margin-left: 26.5%;
+    margin-right: 26.5%;
+    border-bottom: 1.5px solid rgb(174, 212, 224);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;}
+
+.titoli_liste {text-align: left;
+               margin-left: 26.5%;}
+
+li {text-align: left;
+    margin-left: 27%;
+    line-height: 35px;}
+
+#commento_finale {margin-left: 29%;
+                  margin-right: 26.5%;
+                  text-align: justify;
+                  margin-bottom: 1.5%;}
+
+footer {margin-left: 26.5%;
+        margin-right: 26.5%;
+        text-align: justify;}
+
+video {border-radius: 2%;}
+

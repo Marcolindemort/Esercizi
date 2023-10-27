@@ -1,0 +1,132 @@
+body {text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.65;
+      color: #393d41;
+      min-width: 450px;
+      max-width: 500pxS;
+      }
+
+hr {border: 0;}      
+
+/*++++++ header +++++*/
+header {background-color: black;
+        }
+
+header img {height: 40px;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;}
+
+/*++++++ main +++++*/
+.titolo {font-family: 'Montserrat', sans-serif;
+         line-height: 1.5;
+         color: #25a2c3;
+         font-weight: bold;
+         font-size: 2rem;}
+
+#computer {background-image: url(../images/banner.jpg);
+          background-size: cover;
+          padding: 3em;}
+
+#partiamo {font-family: 'Montserrat', sans-serif;
+           font-weight: bold;
+           font-size: 1rem;
+           color: white;
+           background-color: #f04c2f;
+           border: 0;
+           padding: 1em 2em;
+           border-radius: 5%;
+           text-decoration: none}
+           
+#bottone {margin-top: 3em;}
+
+.titoli_piccoli {font-size: 1.2rem;
+                 font-family: 'Montserrat', sans-serif;
+                 line-height: 1.5;
+                 color: #25a2c3;
+                 font-weight: bold;
+                 margin-top: 3rem;
+                 margin-bottom: 0.8rem;}
+
+.paragrafi {padding-left: 3em;
+            padding-right: 3em;}
+
+#pic_rotonda {border-radius: 50%;
+              padding: 2em;
+              width: 50%;}
+
+#distanza {margin-top: 0;}
+
+#arancione {background-color: #e22d0e;
+            margin-top: 3em;
+            margin-bottom: 2.3em;}
+
+#titolo_bianco {color: white;
+                padding: 2em 0em 1em 0em;}
+
+#citazione {color: white;
+            font-style: italic;
+            font-weight: normal;
+            margin-bottom: 2rem;
+            padding-left: 2em;
+            padding-right: 2em;}
+
+#nome {color: white;
+       font-weight: normal;
+       font-size: 1.3em;}
+
+#ceo {color: white;
+      font-weight: normal;
+      font-size: 0.8em;
+      padding-bottom: 2em;}
+
+.foto_finali {width: 90%;}
+
+h3 {font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #25a2c3;}
+
+.paragrafi_finali {font-family: 'Open Sans', sans-serif;
+                   color: #393d41;
+                   padding-left: 2em;
+                   padding-right: 2em;}
+                   
+              
+.bordi {border: 1.5px solid #dee1e3;
+        border-top: 0;
+        border-radius: 2%;
+        margin-left: 1.3em;
+        margin-right: 1.3em;
+        margin-bottom: 2em;
+        padding-bottom: 3em;
+        padding-top: 1em;}
+
+#resize {width: 90%;}
+
+/*++++++ footer ++++++*/
+footer {background-color: #25a2c3;
+        margin-top: 3.5em;}
+
+#contattaci {color: white;
+             padding-top: 1em;
+             margin-bottom: 0.5em;}
+
+ul {color:  #c8e7f0;
+    line-height: 1.6em;
+    padding-bottom: 2em;}
+
+a {color: #c8e7f0;}
+
+#finale {color:  #c8e7f0;
+         border-top: 1px solid  #c8e7f0;
+         padding-top: 3em;
+         padding-bottom: 2em;
+         margin-left: 5.5em;
+         margin-right: 5.5em;}
+
+
+                 
+    
+
+    
+           

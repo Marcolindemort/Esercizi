@@ -1,0 +1,95 @@
+body {background-color: #E9EDEE;
+      font-family: Arial, Helvetica, sans-serif;}
+
+.scritte_piccole {font-size: 0.9em;}
+
+.testo_centrato {text-align: center;}
+
+.scritte_blu {font-weight: bold;
+              font-size: 0.8em;
+              color: #095259;
+              margin-left: 13px;}
+
+.bold {font-weight: bold;}
+
+.inline-block {display: inline-block;}
+
+a {text-decoration: none;}
+
+/*---- header ----*/
+header {background-color: #222F3F;}
+
+#logo {background-color: #222F3F;
+        width: 120px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;}
+
+/*---- nav ----*/
+nav {background-color: #364759;
+     height: 25px;
+     padding-top: 6px;}        
+
+ul {color: white;
+    list-style: none;}
+
+li {float: inline-start;
+    padding-left: 20px;
+    padding-top: 3px;}
+
+/*---- main ----*/
+main {margin: 30px 30px 30px 30px;}
+
+#arancione {background-color: #F46600;
+            color: white;
+            height: 28px;
+            padding-top: 10px;}
+
+#regali {background-image: url(../images/bg-image.png);
+         background-size: 93%;
+         height: 133px;
+         padding-top: 70px;
+         color: white;
+         margin-top: 30px;
+         margin-bottom: 30px;
+         font-weight: bold;}
+
+h1 {font-size: 2em;
+    margin-bottom: 1em;}
+
+#go-gifter {font-size: 1.1em;}
+
+#pic_riquadri {background-color: white;}
+
+#scritta_laterale {font-weight: bold;
+                   margin-top: 18px;
+                   display: inline-block;
+                   margin-left: 18px;}
+
+.riquadro {width: 340px;
+           height: 400px;
+           margin-left: 18px;
+           border-radius: 15%;
+           margin-top: 20px;
+           box-shadow: 1px 1px 10px #b6b2b2;
+           margin-bottom: 20px;}
+
+.foto_finali {width: 100%;
+              margin-top: 30px;
+              margin-bottom: 7px;}
+              
+/*---- footer ----*/
+#back_to_top {background-color: #364759;
+              height: 17px;
+              padding-top: 12px;
+              padding-bottom: 12px;}
+
+#link_footer {text-decoration: underline;
+              color: white;}
+
+#logo_footer_bg {text-align: center;
+                 background-color: #222F3F;
+                 height: 180px;}
+
+#logo_footer {width: 150px;
+              padding-top: 60px;}

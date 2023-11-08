@@ -1,0 +1,26 @@
+body {background-image: url(../img/wallpaperflare.com_wallpaper\(2\).jpg);
+      background-size: cover;
+      margin: 0;}
+
+form {text-align: center;
+      margin-top: 50%;
+      }
+
+#newTask {background-color: rgb(41, 95, 161);
+     margin-left: 35%;
+     margin-right: 35%;
+     border-left: 0;
+     height: 50px;
+     border-radius: 60%;}
+
+#tasks {text-align: center;}
+
+input {width: 300px;
+       height: 30px;
+       margin-top: 7px;
+       border-radius: 20%;}
+
+#btn {height: 50px;
+      margin-left: 20px;}
+
+.completed {text-decoration: line-through;}

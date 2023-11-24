@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spectral&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #191919;
+  box-sizing: border-box;
+}
+
+/*----- header -----*/
+
+header {
+  background-color: #ffc017;
+  display: flex;
+  justify-content: center;
+  padding-block: 25px;
+  padding-inline: 120px;
+  border-bottom: 2px solid black;
+  align-items: center;
+  position: sticky;
+}
+
+.vuoto {
+  display: flex;
+  flex-grow: 1;
+}
+
+header nav span {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+header div button {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding-block: 10px;
+  padding-inline: 15px;
+}
+
+/*----- article giallo ----*/
+
+#giallo {
+  background-color: #ffc017;
+  padding-block: 92px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding-left: 120px;
+  border-bottom: 2px solid black;
+}
+
+#giallo div {
+  width: 50%;
+}
+
+#giallo div h2 {
+  font-family: "Spectral", serif;
+  font-size: 106px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: -8px;
+  margin-bottom: 50px;
+}
+
+#giallo div h3 {
+  font-size: 24px;
+  margin-block-end: 50px;
+}
+
+#giallo div button {
+  border: none;
+  background-color: rgb(0 0 0 /0.9);
+  color: white;
+  border-radius: 30px;
+  padding-block: 10px;
+  padding-inline: 15px;
+  font-size: 20px;
+  width: 213px;
+}
+
+/*---- main ----*/
+
+main {
+  padding-block-start: 40px;
+  padding-inline: 120px;
+}
+
+main > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/*---- section ----*/
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section > div {
+  margin-top: 20px;
+  width: 33.3%;
+  display: flex;
+}
+
+section div .num {
+  margin-inline-end: 20px;
+  font-size: 32px;
+  color: rgb(238, 227, 227);
+  font-weight: bold;
+}
+
+section div img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+section div h4 {
+  display: inline;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+section div h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section div .card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+section div span {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+section div .square {
+  border-radius: 20%;
+}
+
+/*----- article articoli-----*/
+
+#articoli {
+  margin-top: 100px;
+  width: 60%;
+}
+
+.mainArticles {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.mainArticles > div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: flex-end;
+  height: 134px;
+}
+
+.picProfiles {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.mainArticles div h4 {
+  display: inline;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.mainArticles div h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.picArticles {
+  height: 134px;
+  padding-left: 25px;
+}
+
+.picArticles img {
+  width: 200px;
+  height: 134px;
+  object-fit: cover;
+}
+
+.mainArticles div span {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.background {
+  background-color: rgb(202, 202, 202);
+  border-radius: 20px;
+  padding: 5px;
+  padding-inline: 10px;
+}
+
+.bookmark {
+  display: flex;
+  justify-content: space-between;
+}
